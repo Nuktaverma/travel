@@ -365,22 +365,24 @@
     width: 60%;
 }
 
+
+
 .choose{
     display: flex;
-    flex-wrap: wrap;
     padding: 40px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px;
+    border-radius: 8px;
 }
 .choose .text-column{
     flex: 1;
     min-width: 300px;
     margin-right: 20px;
+    padding: 20px;
 }
 .choose .text-column h1{
     font-size: 36px;
     margin-bottom: 40px;
-    padding-bottom: 50px;
 }
 .choose .text-column .text-block{
     margin-bottom: 20px;
@@ -392,10 +394,12 @@
 .choose .text-column .text-block p{
     font-size: 16px;
     line-height: 1.6;
+    
 }
 .choose .image-column{
     flex: 1;
     min-width: 300px;
+    padding: 20px;
 }
 .choose .image-column img{
     width: 100%;
